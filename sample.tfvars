@@ -1,0 +1,12 @@
+project            = "gcp-project"
+purpose            = "datadog-bill-alert"
+days_delta         = 1
+budget             = 3500
+dd_api_key         = ""
+dd_application_key = ""
+slack_webhook_url  = "https://hooks.slack.com/services/abc/abc/abc"
+cron               = "0 16 * * *"
+invoker_email      = "nihitjain11@gmail.com"
+# sendgrid_api_key   = ""
+# from_email         = ""
+# to_email           = ""
